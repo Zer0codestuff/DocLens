@@ -13,5 +13,9 @@ let package = Package(
             resources: [.copy("Resources/docling_worker.py")],
             linkerSettings: [.linkedLibrary("sqlite3")]
         ),
+        .testTarget(
+            name: "DocLensCoreTests",
+            dependencies: ["DocLensCore"]
+        ),
     ]
 )
