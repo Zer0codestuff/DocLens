@@ -8,6 +8,9 @@ let package = Package(
         .library(name: "DocLensCore", targets: ["DocLensCore"]),
     ],
     targets: [
-        .target(name: "DocLensCore"),
+        .target(
+            name: "DocLensCore",
+            resources: [.copy("Resources/docling_worker.py")]
+        ),
     ]
 )
