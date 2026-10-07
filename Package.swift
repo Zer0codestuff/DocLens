@@ -10,7 +10,8 @@ let package = Package(
     targets: [
         .target(
             name: "DocLensCore",
-            resources: [.copy("Resources/docling_worker.py")]
+            resources: [.copy("Resources/docling_worker.py")],
+            linkerSettings: [.linkedLibrary("sqlite3")]
         ),
     ]
 )
