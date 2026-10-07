@@ -6,12 +6,17 @@ let package = Package(
     platforms: [.macOS("26.0")],
     products: [
         .library(name: "DocLensCore", targets: ["DocLensCore"]),
+        .executable(name: "doclens", targets: ["doclens"]),
     ],
     targets: [
         .target(
             name: "DocLensCore",
             resources: [.copy("Resources/docling_worker.py")],
             linkerSettings: [.linkedLibrary("sqlite3")]
+        ),
+        .executableTarget(
+            name: "doclens",
+            dependencies: ["DocLensCore"]
         ),
         .testTarget(
             name: "DocLensCoreTests",
