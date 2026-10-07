@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1718B1888C8AF8161ABAAC69 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD18A2C97CD334122ED351C /* Preferences.swift */; };
+		3688CCA8E96642D757D1D23B /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D174609A0523961583C2E4 /* WorkspaceView.swift */; };
+		464AF58315546D92A20CBE03 /* ExportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67AEB87F43784FB3F2DE7D1 /* ExportSheet.swift */; };
+		62E7A9787AF4000FFCD9E24C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3D43087F61114EE090B187 /* SidebarView.swift */; };
+		6F066285BFD91B551FCDED4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2981562C50A1FB98CD6D09D /* Assets.xcassets */; };
+		96A72CBAA794A7BE40E9ED81 /* PDFPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797FB9F577B5ED32EA2C807 /* PDFPane.swift */; };
+		A68EF33DD37A04D6353A1C8C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1365198891C97B1DDEAC9016 /* AppModel.swift */; };
+		B24A772DCFDFC9F6D4AA0B77 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7111EC6146A84F5DC83DA3 /* InspectorView.swift */; };
+		B7D1D4C798E9A14187FE8B43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC2760C6CC5B0C0AC254CD /* SettingsView.swift */; };
+		C77A02E600DA60ECFF886D5D /* RecipeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A77D5ACE6394CD568E4AC /* RecipeViews.swift */; };
+		C9E678258EED3E0303597951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFF35EA2DE91D7FFC75F34 /* ContentView.swift */; };
+		D22603A3A0732F15AE1B2966 /* DocLensCore in Frameworks */ = {isa = PBXBuildFile; productRef = CAC5F95921B22CC44C51A4CE /* DocLensCore */; };
+		E60E95DF6A48AB5D514E497D /* TableGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98F4E356CA75D967019069 /* TableGridView.swift */; };
+		F0B574E15EE55BC3738E0896 /* DocLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DE9A606D68FBB3292FFD7 /* DocLensApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4A77D5ACE6394CD568E4AC /* RecipeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViews.swift; sourceTree = "<group>"; };
+		1365198891C97B1DDEAC9016 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1F3D43087F61114EE090B187 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		2CCC2760C6CC5B0C0AC254CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		441FA58AC86A2DC3B8AAA5A4 /* DocLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEFF35EA2DE91D7FFC75F34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8797FB9F577B5ED32EA2C807 /* PDFPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPane.swift; sourceTree = "<group>"; };
+		B6E523A59D6C4266E5206F88 /* DocLens */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DocLens; path = .; sourceTree = SOURCE_ROOT; };
+		C2981562C50A1FB98CD6D09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC98F4E356CA75D967019069 /* TableGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableGridView.swift; sourceTree = "<group>"; };
+		D4D174609A0523961583C2E4 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceView.swift; sourceTree = "<group>"; };
+		D67AEB87F43784FB3F2DE7D1 /* ExportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportSheet.swift; sourceTree = "<group>"; };
+		DAD18A2C97CD334122ED351C /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		FA7DE9A606D68FBB3292FFD7 /* DocLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocLensApp.swift; sourceTree = "<group>"; };
+		FF7111EC6146A84F5DC83DA3 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015149FB9BD94B012327CA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22603A3A0732F15AE1B2966 /* DocLensCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0595141E5D977713F9B7E074 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2981562C50A1FB98CD6D09D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1CC350CBF152CAABE8A92060 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7DE9A606D68FBB3292FFD7 /* DocLensApp.swift */,
+				5C948BEEAEF855EFAC43807A /* Grid */,
+				D29336C96826C8BEEB73F892 /* Model */,
+				A59FF2F8D5E24FEA33063BDF /* PDF */,
+				35AFA3464480C4C89C5FD365 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		35AFA3464480C4C89C5FD365 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FEFF35EA2DE91D7FFC75F34 /* ContentView.swift */,
+				D67AEB87F43784FB3F2DE7D1 /* ExportSheet.swift */,
+				FF7111EC6146A84F5DC83DA3 /* InspectorView.swift */,
+				0F4A77D5ACE6394CD568E4AC /* RecipeViews.swift */,
+				2CCC2760C6CC5B0C0AC254CD /* SettingsView.swift */,
+				1F3D43087F61114EE090B187 /* SidebarView.swift */,
+				D4D174609A0523961583C2E4 /* WorkspaceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C948BEEAEF855EFAC43807A /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				CC98F4E356CA75D967019069 /* TableGridView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		6F6BF642F3DF2D609F60E1D4 = {
+			isa = PBXGroup;
+			children = (
+				925003530F306D4CB6885A6D /* App */,
+				9831577812ABFA6D143AA448 /* Packages */,
+				79CDA4A5C14711548FF6FD46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CDA4A5C14711548FF6FD46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441FA58AC86A2DC3B8AAA5A4 /* DocLens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925003530F306D4CB6885A6D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0595141E5D977713F9B7E074 /* Resources */,
+				1CC350CBF152CAABE8A92060 /* Sources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9831577812ABFA6D143AA448 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B6E523A59D6C4266E5206F88 /* DocLens */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A59FF2F8D5E24FEA33063BDF /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				8797FB9F577B5ED32EA2C807 /* PDFPane.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		D29336C96826C8BEEB73F892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1365198891C97B1DDEAC9016 /* AppModel.swift */,
+				DAD18A2C97CD334122ED351C /* Preferences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592C64FA6B1910C51855DF68 /* DocLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B3F4FE9751D0C67467C281 /* Build configuration list for PBXNativeTarget "DocLens" */;
+			buildPhases = (
+				3C2055010945F2F55E2B039F /* Sources */,
+				9B29711A28EA6A17A0CAAD1E /* Resources */,
+				015149FB9BD94B012327CA40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocLens;
+			packageProductDependencies = (
+				CAC5F95921B22CC44C51A4CE /* DocLensCore */,
+			);
+			productName = DocLens;
+			productReference = 441FA58AC86A2DC3B8AAA5A4 /* DocLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D88E7641C7BC6D92F90340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					592C64FA6B1910C51855DF68 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C1AF09C5D0269B937083404E /* Build configuration list for PBXProject "DocLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6F6BF642F3DF2D609F60E1D4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6BF7349934941BEAA8BDD45 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79CDA4A5C14711548FF6FD46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592C64FA6B1910C51855DF68 /* DocLens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B29711A28EA6A17A0CAAD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F066285BFD91B551FCDED4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2055010945F2F55E2B039F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68EF33DD37A04D6353A1C8C /* AppModel.swift in Sources */,
+				C9E678258EED3E0303597951 /* ContentView.swift in Sources */,
+				F0B574E15EE55BC3738E0896 /* DocLensApp.swift in Sources */,
+				464AF58315546D92A20CBE03 /* ExportSheet.swift in Sources */,
+				B24A772DCFDFC9F6D4AA0B77 /* InspectorView.swift in Sources */,
+				96A72CBAA794A7BE40E9ED81 /* PDFPane.swift in Sources */,
+				1718B1888C8AF8161ABAAC69 /* Preferences.swift in Sources */,
+				C77A02E600DA60ECFF886D5D /* RecipeViews.swift in Sources */,
+				B7D1D4C798E9A14187FE8B43 /* SettingsView.swift in Sources */,
+				62E7A9787AF4000FFCD9E24C /* SidebarView.swift in Sources */,
+				E60E95DF6A48AB5D514E497D /* TableGridView.swift in Sources */,
+				3688CCA8E96642D757D1D23B /* WorkspaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55DD08D09CA73BB21567E6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DocLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.doclens.DocLens;
+				PRODUCT_NAME = DocLens;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		5D7CCC9E41A4003F4025B577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DocLens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.doclens.DocLens;
+				PRODUCT_NAME = DocLens;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		8E6B64032F952AADF5CCBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9C1676B9C1880542D1E136C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B3F4FE9751D0C67467C281 /* Build configuration list for PBXNativeTarget "DocLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DD08D09CA73BB21567E6C3 /* Debug */,
+				5D7CCC9E41A4003F4025B577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1AF09C5D0269B937083404E /* Build configuration list for PBXProject "DocLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6B64032F952AADF5CCBFF4 /* Debug */,
+				9C1676B9C1880542D1E136C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B6BF7349934941BEAA8BDD45 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAC5F95921B22CC44C51A4CE /* DocLensCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DocLensCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F7D88E7641C7BC6D92F90340 /* Project object */;
+}
